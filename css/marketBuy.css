@@ -110,6 +110,10 @@ img{
     width: 26px;
     height: 37px;
 }
+.nav_CWN a img{
+    width: 22px;
+    height: 20px;
+}
 .nav_CWN p{
     font-size: 11px;
     font-family: "Open Sans", sans-serif;
@@ -184,6 +188,7 @@ img{
     }
     .navSearch{
         width: 100%;
+        margin-bottom: 10px;
     }
     .search_btn{
         /* max-width: 240px; */
@@ -204,6 +209,9 @@ img{
     }
     .nav_CWN p{
         font-size: 9px;
+    }
+    .register-btn{
+        padding: 5px;
     }
 }
 /* Navbar Links */
@@ -692,7 +700,7 @@ h6{
     font-weight: 600;
 }
 .photoView a:hover{
-    width: 205px;
+    /* width: 205px; */
     background-color: #E67E22;
     color: #000000;
 }
@@ -799,6 +807,9 @@ h6{
         font-size: 16px;
         line-height: 20px;
         margin-left: 0;
+    }
+    .photoView{
+        margin-bottom: 10px;
     }
 }
 @media screen and (max-width:500px){
@@ -946,6 +957,10 @@ h6{
     }
 }
 @media screen and (max-width:800px){
+    .common_padding{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .footerParts{
         flex-wrap: wrap;
     }

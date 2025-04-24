@@ -110,6 +110,10 @@ img{
     width: 26px;
     height: 37px;
 }
+.nav_CWN a img{
+    width: 22px;
+    height: 20px;
+}
 .nav_CWN p{
     font-size: 11px;
     font-family: "Open Sans", sans-serif;
@@ -168,6 +172,11 @@ img{
         font-size: 15px;
     }
 }
+@media screen and (max-width:767px) {
+    .element.style{
+        display: block;
+    }
+}
 @media screen and ( max-width: 665px){
     .navLogo img{
         width: 55px;
@@ -205,6 +214,9 @@ img{
     }
     .nav_CWN p{
         font-size: 9px;
+    }
+    .register-btn{
+        padding: 5px;
     }
 }
 /* Navbar Links */
@@ -585,7 +597,7 @@ textarea{
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
 }
-.photoView:hover{
+.photoView a:hover{
     background-color: #E67E22;
     color: #000000;
 }
@@ -715,7 +727,7 @@ textarea{
         margin-right: 15px;
     }
     .photoView a{
-        font-size: 22px;
+        font-size: 24px;
         line-height: 30px;
     }
 }
@@ -942,7 +954,7 @@ textarea{
     .input2 a{
         font-size: 15px;
         line-height: 15px;
-        padding: 10px 0;
+        padding: 4px;
         height: 40px;
     }
     .uploadImg{

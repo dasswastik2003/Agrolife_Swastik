@@ -33,7 +33,7 @@
                     </a>
                 </div>
                 <div class="nav_log_reg d-flex justify-content-between align-items-center" id="navbarSupportedContent">
-                    <a class="log-btn" href="#">Log In</a>
+                    <a class="log-btn btn" href="#">Log In</a>
                     <a class=" register-btn text-center" href="#">Register</a>
                 </div>
                 <div class="nav_CWN d-flex justify-content-between align-items-center text-center"
@@ -56,11 +56,15 @@
         <!-- Navbar Links -->
         <nav class="navbar navLinks common_padding navbar-expand-lg">
             <div class="Links container_mine container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </button> -->
+                <a class="toggle-btn navbar-toggler" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation" href="#">
+                    <span class="navbar-toggler-icon"></span>
+                </a>
                 <div class=" Menu navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -94,11 +98,11 @@
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="indicators carousel-indicators ">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                        aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+                        class="active" aria-current="true" aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
                         aria-label="Slide 4"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
@@ -130,13 +134,11 @@
                             <p class="text-center">Buy and sell from the largest farmer marketplace </p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./images/banner.png" class="d-block w-100" alt="...">
-                        <div class="container_mine carousel-caption bannerText">
-                            <h4 class="text-start">Welcome to<span>AgroLife</span></h4>
-                            <h2 class="text-start">AgroLife</h2>
-                            <p class="text-start">One smart solution to all your agricultural problems.</p>
-                            <button type="button" class="explore_btn btn">Explore</button>
+                    <div class=" galleryBanner carousel-item ">
+                        <img src="./images/Scheme segment.png" class="d-block w-100" alt="Schemesbanner">
+                        <div class="container_mine carousel-caption galleryText ">
+                            <h1 class="text-center">Schemes</h1>
+                            <p class="text-center">Access to all Central and State Government Farmer Schemes</p>
                         </div>
                     </div>
                     <div class=" galleryBanner carousel-item ">
@@ -364,7 +366,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
-    <script src="./js/index.js"></script>
+    <!-- <script src="./js/index.js"></script> -->
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/marketPlace.js"></script>
 </body>
 
 </html>

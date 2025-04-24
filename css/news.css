@@ -110,6 +110,10 @@ img{
     width: 26px;
     height: 37px;
 }
+.nav_CWN a img{
+    width: 22px;
+    height: 20px;
+}
 .nav_CWN p{
     font-size: 11px;
     font-family: "Open Sans", sans-serif;
@@ -205,6 +209,9 @@ img{
     }
     .nav_CWN p{
         font-size: 9px;
+    }
+    .register-btn{
+        padding: 5px;
     }
 }
 /* Navbar Links */
@@ -544,7 +551,7 @@ h5{
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
 }
-.photoView:hover{
+.photoView a:hover{
     background-color: #E67E22;
     color: #000000;
 }
@@ -766,6 +773,10 @@ h5{
     }
 }
 @media screen and (max-width:800px){
+    .common_padding{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .footerParts{
         flex-wrap: wrap;
     }
