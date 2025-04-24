@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Open Sans -->
+    <link rel="stylesheet"
+        href="@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap');">
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="navbar container_mine navbar-expand-lg ">
+            <div class="navParts d-flex justify-content-between align-items-center container-fluid ">
+                <a class="navLogo navbar-brand d-flex flex-column justify-content-center align-items-center" href="./index.html">
+                    <img src="./images/Logo.png" alt="#">
+                    <p>AgroLife</p>
+                    <span>Smart, Scientific, Sustainable</span>
+                </a>
+
+                <div class="navSearch d-flex justify-content-center align-items-center" id="navbarSupportedContent">
+                    <a href="#"
+                        class="search_btn btn btn-outline-success d-flex justify-content-between align-items-center">
+                        Search <img src="./images/search-svgrepo-com 1.png" alt="search">
+                    </a>
+                </div>
+                <div class="nav_log_reg d-flex justify-content-between align-items-center" id="navbarSupportedContent">
+                    <a class="log" href="#">Log In</a>
+                    <a class=" register-btn text-center" href="#">Register</a>
+                </div>
+                <div class="nav_CWN d-flex justify-content-between align-items-center text-center"
+                    id="navbarSupportedContent">
+                    <a class="navbar-brand d-flex flex-column align-items-center" href="#">
+                        <img src="./images/cart icon.png" alt="#">
+                        <p>cart</p>
+                    </a>
+                    <a class="navbar-brand d-flex flex-column align-items-center" href="#">
+                        <img src="./images/wishlist.png" alt="#">
+                        <p>Wishlist</p>
+                    </a>
+                    <a class="navbar-brand d-flex flex-column align-items-center" href="#">
+                        <img src="./images/Vector (1).png" alt="#">
+                        <p>Notifications</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar Links -->
+        <nav class="navbar navLinks  navbar-expand-lg">
+            <div class="Links container_mine container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class=" Menu navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./marketPlace.html">Marketplace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./community.html">Community</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./schemes.html">Schemes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./gallery.html">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Banner -->
+        <section class="banner carasoul">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="indicators carousel-indicators ">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/banner.png" class="d-block w-100" alt="...">
+                        <div class="container_mine carousel-caption bannerText">
+                            <h2 class="text-start">Welcome to <span>AgroLife</span></h2>
+                            <h1 class="text-start">AgroLife</h1>
+                            <p class="text-start mb-4">One smart solution to all your agricultural problems.</p>
+                            <button type="button" class="explore_btn btn">Explore</button>
+                        </div>
+                    </div>
+                    <div class=" galleryBanner carousel-item ">
+                        <img src="./images/Group 323.png" class="d-block w-100" alt="...">
+                        <div class="container_mine carousel-caption galleryText ">
+                            <h1 class="text-center">MarketPlace</h1>
+                            <p class="text-center">Buy and sell from the largest farmer marketplace </p>
+                        </div>
+                    </div>
+                    <div class=" galleryBanner carousel-item ">
+                        <img src="./images/CommunityBanner.png" class="d-block w-100" alt="...">
+                        <div class="container_mine carousel-caption galleryText ">
+                            <h1 class="text-center">Community</h1>
+                            <p class="text-center">Buy and sell from the largest farmer marketplace </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/banner.png" class="d-block w-100" alt="...">
+                        <div class="container_mine carousel-caption bannerText">
+                            <h4 class="text-start">Welcome to<span>AgroLife</span></h4>
+                            <h2 class="text-start">AgroLife</h2>
+                            <p class="text-start">One smart solution to all your agricultural problems.</p>
+                            <button type="button" class="explore_btn btn">Explore</button>
+                        </div>
+                    </div>
+                    <div class=" galleryBanner carousel-item ">
+                        <img src="./images/NewsBanner.png" class="d-block w-100" alt="...">
+                        <div class="container_mine carousel-caption galleryText ">
+                            <h1 class="text-center">News</h1>
+                            <p class="text-center">Stay updated with latest agricultural news from all over the country
+                            </p>
+                        </div>
+                    </div>
+                    <div class=" galleryBanner carousel-item">
+                        <img src="./images/GalleryBanner.png" class="d-block w-100" alt="...">
+                        <div class="container_mine carousel-caption galleryText ">
+                            <h1 class="text-center">Gallery</h1>
+                            <p class="text-center">View our projects in collaboration with farmers across the country
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev arrowL" type="button" data-bs-target="#carouselExample"
+                    data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next arrowR" type="button" data-bs-target="#carouselExample"
+                    data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Services -->
+        <section class="services section_padding common_padding">
+            <div class="container_mine text-center">
+                <h2 class="mb-4">Our Services</h3>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti blanditiis ratione
+                        ullam ipsam pariatur lorem non quisquam eius unde ea neque aperiam quod magni soluta voluptates
+                        suscipit consectetur quibusdam fuga, quis illo dignissimos sint voluptate odio?</p>
+                    <div class="servicesParts d-flex justify-content-between align-items-center">
+                        <div class="services1 card d-flex flex-column align-items-center border-0 position-relative">
+                            <img src="./images/service1.png" class="card-img-top position-relative" alt="services">
+                            <a href="#" class="services_btn btn position-absolute">Crop Advisory</a>
+                            <!-- <button type="button" class="services_btn btn position-absolute">Crop Advisory</button> -->
+                            <p class="card-text text-start">Lorem ipsum is simply dummy text o printing and typesetting
+                                industry.</p>
+                        </div>
+                        <div class="services1 card d-flex flex-column align-items-center border-0">
+                            <img src="./images/service2.png" class="card-img-top position-relative" alt="services">
+                            <a href="#" class="services_btn btn position-absolute">Crop Advisory</a>
+                            <p class="card-text text-start">Lorem ipsum is simply dummy text o printing and typesetting
+                                industry.</p>
+                        </div>
+                        <div class="services1 card d-flex flex-column align-items-center border-0 ">
+                            <img src="./images/service3.png" class="card-img-top position-relative" alt="services">
+                            <a href="#" class="services_btn btn position-absolute">Crop Advisory</a>
+                            <p class="card-text text-start">Lorem ipsum is simply dummy text o printing and typesetting
+                                industry.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- Who We Are -->
+        <section class="Who_We_Are common_padding">
+            <div class="container_mine">
+                <div class="heading d-flex justify-content-between align-items-center mb-4">
+                    <div class="heading1"></div>
+                    <div class="heading2 text-center">
+                        <h2>Who We Are</h3>
+                    </div>
+                </div>
+                <div class="wwaParts d-flex justify-content-between  text-center">
+                    <div class="wwa1 d-flex align-items-center ">
+                        <figure class="wwa1Img">
+                            <img src="./images/wwa1.png" alt="wwa">
+                        </figure>
+                        <p class="wwa1Text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem animi cum
+                            rerum, provident asperiores eaque eligendi perferendis adipisci odio fuga tenetur sint quos
+                            ratione praesentium et, facere quibusdam. Lorem, ipsum dolor.</p>
+                    </div>
+                    <div class="wwa2 d-flex align-items-center">
+                        <div class="wwa2TextPart d-flex flex-column">
+                            <p class="wwa2Text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem animi
+                                cum rerum, provident asperiores eaque eligendi perferendis adipisci odio fuga tenetur
+                                sint
+                                quos ratione praesentium et, facere quibusdam. Lorem, ipsum dolor.</p>
+                            <div class="wwa2TextCard d-flex justify-content-between align-items-center">
+                                <div class="card d-flex flex-column align-items-center border-0">
+                                    <img src="./images/plant-on-a-hand-svgrepo-com 1.png" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title.</p>
+                                    </div>
+                                </div>
+                                <div class="card d-flex flex-column align-items-center border-0">
+                                    <img src="./images/tractor-svgrepo-com 1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title.</p>
+                                    </div>
+                                </div>
+                                <div class="card d-flex flex-column align-items-center border-0">
+                                    <img src="./images/farmer-farm-svgrepo-com 1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <figure class="wwa2Img">
+                            <img src="./images/wwa2.png" alt="wwa">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Market -->
+        <section class="market section_padding">
+            <div class="marketBody common_padding">
+                <div class="container_mine">
+                    <div class="marketParts d-flex justify-content-between ">
+                        <div class="marketText d-flex justify-content-center align-items-center flex-column">
+                            <h2>Visit Our MarketPlace</h2>
+                            <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                            <a href="./marketBuy.html" class="btn">View All</a>
+                            <a href="./marketSell.html" class="sell-btn btn">Want to sell?</a>
+                        </div>
+                        <!-- Swiper -->
+                        <div class="slider swiper mySwiper">
+                            <div class=" ProductCards swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="marketProduct card">
+                                        <div class="marketProductBanner d-flex justify-content-between flex-row ">
+                                            <img src="./images/marketProductLogo.png" class="marketProductLogo"
+                                                alt="...">
+                                            <div
+                                                class="marketProductoffer d-flex justify-content-center align-items-center text-center">
+                                                <p>31% off</p>
+                                            </div>
+                                        </div>
+                                        <div class="marketProductText card-body">
+                                            <h4>Alphanso Mango</h4>
+                                            <p class="d-flex flex-row align-items-center"><img src="./images/rupee1.png"
+                                                    alt="rupee">166/kg
+                                                <span class="d-flex flex-row align-items-center"><img
+                                                        src="./images/rupee2.png" alt="rupee">242/kg</span>
+                                            </p>
+                                            <div class="star">
+                                                <ul>
+                                                    <li class="d-flex align-items-center flex-row">
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="add-btn text-center d-flex justify-content-center align-items-center border-0"><img
+                                                    src="./images/cartMarket.png" alt="#">Add to cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="marketProduct card">
+                                        <div class="marketProductBanner d-flex justify-content-between flex-row ">
+                                            <img src="./images/marketProductLogo.png" class="marketProductLogo"
+                                                alt="...">
+                                            <div
+                                                class="marketProductoffer d-flex justify-content-center align-items-center text-center">
+                                                <p>31% off</p>
+                                            </div>
+                                        </div>
+                                        <div class="marketProductText card-body">
+                                            <h4>Alphanso Mango</h4>
+                                            <p class="d-flex flex-row align-items-center"><img src="./images/rupee1.png"
+                                                    alt="rupee">166/kg
+                                                <span class="d-flex flex-row align-items-center"><img
+                                                        src="./images/rupee2.png" alt="rupee">242/kg</span>
+                                            </p>
+                                            <div class="star">
+                                                <ul>
+                                                    <li class="d-flex align-items-center flex-row">
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="add-btn text-center d-flex justify-content-center align-items-center border-0"><img
+                                                    src="./images/cartMarket.png" alt="#">Add to cart</a>
+                                            <!-- <button class="text-center d-flex justify-content-center align-items-center border-0" type="button"><img src="./images/cartMarket.png" alt="#">Add to cart</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="marketProduct card">
+                                        <div class="marketProductBanner d-flex justify-content-between flex-row ">
+                                            <img src="./images/marketProductLogo.png" class="marketProductLogo"
+                                                alt="...">
+                                            <div
+                                                class="marketProductoffer d-flex justify-content-center align-items-center text-center">
+                                                <p>31% off</p>
+                                            </div>
+                                        </div>
+                                        <div class="marketProductText card-body">
+                                            <h4>Alphanso Mango</h4>
+                                            <p class="d-flex flex-row align-items-center"><img src="./images/rupee1.png"
+                                                    alt="rupee">166/kg
+                                                <span class="d-flex flex-row align-items-center"><img
+                                                        src="./images/rupee2.png" alt="rupee">242/kg</span>
+                                            </p>
+                                            <div class="star">
+                                                <ul>
+                                                    <li class="d-flex align-items-center flex-row">
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="add-btn text-center d-flex justify-content-center align-items-center border-0"><img
+                                                    src="./images/cartMarket.png" alt="#">Add to cart</a>
+                                            <!-- <button class="text-center d-flex justify-content-center align-items-center border-0" type="button"><img src="./images/cartMarket.png" alt="#">Add to cart</button> -->
+                                        </div>
+                                    </div>
+                                    <div class="marketProduct card">
+                                        <div class="marketProductBanner d-flex justify-content-between flex-row ">
+                                            <img src="./images/marketProductLogo.png" class="marketProductLogo"
+                                                alt="...">
+                                            <div
+                                                class="marketProductoffer d-flex justify-content-center align-items-center text-center">
+                                                <p>31% off</p>
+                                            </div>
+                                        </div>
+                                        <div class="marketProductText card-body">
+                                            <h4>Alphanso Mango</h4>
+                                            <p class="d-flex flex-row align-items-center"><img src="./images/rupee1.png"
+                                                    alt="rupee">166/kg
+                                                <span class="d-flex flex-row align-items-center"><img
+                                                        src="./images/rupee2.png" alt="rupee">242/kg</span>
+                                            </p>
+                                            <div class="star">
+                                                <ul>
+                                                    <li class="d-flex align-items-center flex-row">
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="add-btn text-center d-flex justify-content-center align-items-center border-0"><img
+                                                    src="./images/cartMarket.png" alt="#">Add to cart</a>
+                                            <!-- <button class="text-center d-flex justify-content-center align-items-center border-0" type="button"><img src="./images/cartMarket.png" alt="#">Add to cart</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="marketProduct card">
+                                        <div class="marketProductBanner d-flex justify-content-between flex-row ">
+                                            <img src="./images/marketProductLogo.png" class="marketProductLogo"
+                                                alt="...">
+                                            <div
+                                                class="marketProductoffer d-flex justify-content-center align-items-center text-center">
+                                                <p>31% off</p>
+                                            </div>
+                                        </div>
+                                        <div class="marketProductText card-body">
+                                            <h4>Alphanso Mango</h4>
+                                            <p class="d-flex flex-row align-items-center"><img src="./images/rupee1.png"
+                                                    alt="rupee">166/kg
+                                                <span class="d-flex flex-row align-items-center"><img
+                                                        src="./images/rupee2.png" alt="rupee">242/kg</span>
+                                            </p>
+                                            <div class="star">
+                                                <ul>
+                                                    <li class="d-flex align-items-center flex-row">
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="add-btn text-center d-flex justify-content-center align-items-center border-0"><img
+                                                    src="./images/cartMarket.png" alt="#">Add to cart</a>
+                                            <!-- <button class="text-center d-flex justify-content-center align-items-center border-0" type="button"><img src="./images/cartMarket.png" alt="#">Add to cart</button> -->
+                                        </div>
+                                    </div>
+                                    <div class="marketProduct card">
+                                        <div class="marketProductBanner d-flex justify-content-between flex-row ">
+                                            <img src="./images/marketProductLogo.png" class="marketProductLogo"
+                                                alt="...">
+                                            <div
+                                                class="marketProductoffer d-flex justify-content-center align-items-center text-center">
+                                                <p>31% off</p>
+                                            </div>
+                                        </div>
+                                        <div class="marketProductText card-body">
+                                            <h4>Alphanso Mango</h4>
+                                            <p class="d-flex flex-row align-items-center"><img src="./images/rupee1.png"
+                                                    alt="rupee">166/kg
+                                                <span class="d-flex flex-row align-items-center"><img
+                                                        src="./images/rupee2.png" alt="rupee">242/kg</span>
+                                            </p>
+                                            <div class="star">
+                                                <ul>
+                                                    <li class="d-flex align-items-center flex-row">
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="add-btn text-center d-flex justify-content-center align-items-center border-0"><img
+                                                    src="./images/cartMarket.png" alt="#">Add to cart</a>
+                                            <!-- <button class="text-center d-flex justify-content-center align-items-center border-0" type="button"><img src="./images/cartMarket.png" alt="#">Add to cart</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="marketProduct card">
+                                        <div class="marketProductBanner d-flex justify-content-between flex-row ">
+                                            <img src="./images/marketProductLogo.png" class="marketProductLogo"
+                                                alt="...">
+                                            <div
+                                                class="marketProductoffer d-flex justify-content-center align-items-center text-center">
+                                                <p>31% off</p>
+                                            </div>
+                                        </div>
+                                        <div class="marketProductText card-body">
+                                            <h4>Alphanso Mango</h4>
+                                            <p class="d-flex flex-row align-items-center"><img src="./images/rupee1.png"
+                                                    alt="rupee">166/kg
+                                                <span class="d-flex flex-row align-items-center"><img
+                                                        src="./images/rupee2.png" alt="rupee">242/kg</span>
+                                            </p>
+                                            <div class="star">
+                                                <ul>
+                                                    <li class="d-flex align-items-center flex-row">
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="add-btn text-center d-flex justify-content-center align-items-center border-0"><img
+                                                    src="./images/cartMarket.png" alt="#">Add to cart</a>
+                                            <!-- <button class="text-center d-flex justify-content-center align-items-center border-0" type="button"><img src="./images/cartMarket.png" alt="#">Add to cart</button> -->
+                                        </div>
+                                    </div>
+                                    <div class="marketProduct card">
+                                        <div class="marketProductBanner d-flex justify-content-between flex-row ">
+                                            <img src="./images/marketProductLogo.png" class="marketProductLogo"
+                                                alt="...">
+                                            <div
+                                                class="marketProductoffer d-flex justify-content-center align-items-center text-center">
+                                                <p>31% off</p>
+                                            </div>
+                                        </div>
+                                        <div class="marketProductText card-body">
+                                            <h4>Alphanso Mango</h4>
+                                            <p class="d-flex flex-row align-items-center"><img src="./images/rupee1.png"
+                                                    alt="rupee">166/kg
+                                                <span class="d-flex flex-row align-items-center"><img
+                                                        src="./images/rupee2.png" alt="rupee">242/kg</span>
+                                            </p>
+                                            <div class="star">
+                                                <ul>
+                                                    <li class="d-flex align-items-center flex-row">
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="add-btn text-center d-flex justify-content-center align-items-center border-0"><img
+                                                    src="./images/cartMarket.png" alt="#">Add to cart</a>
+                                            <!-- <button class="text-center d-flex justify-content-center align-items-center border-0" type="button"><img src="./images/cartMarket.png" alt="#">Add to cart</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="marketProduct card">
+                                        <div class="marketProductBanner d-flex justify-content-between flex-row ">
+                                            <img src="./images/marketProductLogo.png" class="marketProductLogo"
+                                                alt="...">
+                                            <div
+                                                class="marketProductoffer d-flex justify-content-center align-items-center text-center">
+                                                <p>31% off</p>
+                                            </div>
+                                        </div>
+                                        <div class="marketProductText card-body">
+                                            <h4>Alphanso Mango</h4>
+                                            <p class="d-flex flex-row align-items-center"><img src="./images/rupee1.png"
+                                                    alt="rupee">166/kg
+                                                <span class="d-flex flex-row align-items-center"><img
+                                                        src="./images/rupee2.png" alt="rupee">242/kg</span>
+                                            </p>
+                                            <div class="star">
+                                                <ul>
+                                                    <li class="d-flex align-items-center flex-row">
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="add-btn text-center d-flex justify-content-center align-items-center border-0"><img
+                                                    src="./images/cartMarket.png" alt="#">Add to cart</a>
+                                            <!-- <button class="text-center d-flex justify-content-center align-items-center border-0" type="button"><img src="./images/cartMarket.png" alt="#">Add to cart</button> -->
+                                        </div>
+                                    </div>
+                                    <div class="marketProduct card">
+                                        <div class="marketProductBanner d-flex justify-content-between flex-row ">
+                                            <img src="./images/marketProductLogo.png" class="marketProductLogo"
+                                                alt="...">
+                                            <div
+                                                class="marketProductoffer d-flex justify-content-center align-items-center text-center">
+                                                <p>31% off</p>
+                                            </div>
+                                        </div>
+                                        <div class="marketProductText card-body">
+                                            <h4>Alphanso Mango</h4>
+                                            <p class="d-flex flex-row align-items-center"><img src="./images/rupee1.png"
+                                                    alt="rupee">166/kg
+                                                <span class="d-flex flex-row align-items-center"><img
+                                                        src="./images/rupee2.png" alt="rupee">242/kg</span>
+                                            </p>
+                                            <div class="star">
+                                                <ul>
+                                                    <li class="d-flex align-items-center flex-row">
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                        <a href="#"><img src="./images/star.png" alt="star"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="#"
+                                                class="add-btn text-center d-flex justify-content-center align-items-center border-0"><img
+                                                    src="./images/cartMarket.png" alt="#">Add to cart</a>
+                                            <!-- <button class="text-center d-flex justify-content-center align-items-center border-0" type="button"><img src="./images/cartMarket.png" alt="#">Add to cart</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="swiper-button-next"></div> -->
+                            <!-- <div class="swiper-button-prev"></div> -->
+                            <!-- <div class="swiper-pagination"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- community -->
+        <section class="community">
+            <div class="container_mine">
+                <div class="communityText text-center d-flex flex-column align-items-center">
+                    <h2>Join the biggest farmer community.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, illo a. Voluptate assumenda
+                        beatae dolorem? Quas dolore repellat minus esse ullam quis molestias iusto necessitatibus?</p>
+                    <div class="community_btn d-flex justify-content-between align-items-center text-center">
+                        <input class="border-0" type="text" name="text" id="text" placeholder="Write your question">
+                        <a href="#" class="btn border-0">Ask</a>
+                        <a href="./community.html" class="btn visit-btn border-0">Visit</a>
+                        <!-- <button class="border-0" type="submit">Ask</button> -->
+                        <!-- <button class="border-0" type="button">Visit</button> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Project -->
+        <section class="project section_padding common_padding">
+            <div class="container_mine">
+                <div class="projectText text-center d-flex flex-column align-items-center">
+                    <h2>Project Gallery</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s</p>
+                </div>
+                <div class="projectphotos">
+                    <div class="text-center">
+                        <div class="photos1 d-flex justify-content-between align-items-center">
+                            <div class="photos card border-0">
+                                <img src="./images/Frame 20.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="photos card border-0">
+                                <img src="./images/Frame 23.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="photos photo card border-0">
+                                <img src="./images/Frame 22.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="photos1 photos2nd d-flex justify-content-between align-items-center">
+                            <div class="photos2 card border-0">
+                                <img src="./images/Frame 21.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="photos3 card border-0">
+                                <img src="./images/Frame 24.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="photos4 card border-0">
+                                <img src="./images/Frame 22.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial -->
+        <section class="testimonial">
+            <!-- <div class="testimonialParts">
+                    <h2 class="text-center">Testimonials</h2>
+                </div> -->
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="testimonial-banner" src="./images/testimonial.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption testimonialText common_padding">
+                            <h2 class="text-center">Testimonials</h2>
+                            <div class="testimonialParts">
+                                <div class="testi">
+                                    <a class="testimonial-man" href="#"><img src="./images/Testimonial-man.png"
+                                            alt="Testimonial-man"></a>
+                                    <p class="text-center">Shuvash Palekar</p>
+                                    <div class="testimonialStars d-flex justify-content-center align-items-center">
+                                        <ul class="d-flex justify-content-between align-items-center flex-row">
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="testimonialOpinion container_mine ">
+                                    <ul
+                                        class="d-flex justify-content-center align-items-center flex-row position-relative">
+                                        <li class="colon1 position-absolute"><a href="#"><img src="./images/colon1.png"
+                                                    alt="colon1"></a></li>
+                                        <li>
+                                            <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry. Lorem Ipsum has been
+                                                the industry's standard dummy text ever since the 1500s, when an unknown
+                                                printer took a galley of </p>
+                                        </li>
+                                        <li class=" colon2 position-absolute"><a href="#"><img src="./images/colon2.png"
+                                                    alt="colon2"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="testimonial-banner" src="./images/testimonial.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption testimonialText common_padding">
+                            <h2 class="text-center">Testimonials</h2>
+                            <div class="testimonialParts">
+                                <div class="testi">
+                                    <a class="testimonial-man" href="#"><img src="./images/Testimonial-man.png"
+                                            alt="Testimonial-man"></a>
+                                    <p class="text-center">Shuvash Palekar</p>
+                                    <div class="testimonialStars d-flex justify-content-center align-items-center">
+                                        <ul class="d-flex justify-content-between align-items-center flex-row">
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="testimonialOpinion container_mine ">
+                                    <ul
+                                        class="d-flex justify-content-center align-items-center flex-row position-relative">
+                                        <li class="colon1 position-absolute"><a href="#"><img src="./images/colon1.png"
+                                                    alt="colon1"></a></li>
+                                        <li>
+                                            <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry. Lorem Ipsum has been
+                                                the industry's standard dummy text ever since the 1500s, when an unknown
+                                                printer took a galley of </p>
+                                        </li>
+                                        <li class=" colon2 position-absolute"><a href="#"><img src="./images/colon2.png"
+                                                    alt="colon2"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img class="testimonial-banner" src="./images/testimonial.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption testimonialText common_padding">
+                            <h2 class="text-center">Testimonials</h2>
+                            <div class="testimonialParts">
+                                <div class="testi">
+                                    <a class="testimonial-man" href="#"><img src="./images/Testimonial-man.png"
+                                            alt="Testimonial-man"></a>
+                                    <p class="text-center">Shuvash Palekar</p>
+                                    <div class="testimonialStars d-flex justify-content-center align-items-center">
+                                        <ul class="d-flex justify-content-between align-items-center flex-row">
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                            <li><a href="#"><img src="./images/star.png" alt="star"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="testimonialOpinion container_mine ">
+                                    <ul
+                                        class="d-flex justify-content-center align-items-center flex-row position-relative">
+                                        <li class="colon1 position-absolute"><a href="#"><img src="./images/colon1.png"
+                                                    alt="colon1"></a></li>
+                                        <li>
+                                            <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                industry. Lorem Ipsum has been
+                                                the industry's standard dummy text ever since the 1500s, when an unknown
+                                                printer took a galley of </p>
+                                        </li>
+                                        <li class=" colon2 position-absolute"><a href="#"><img src="./images/colon2.png"
+                                                    alt="colon2"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- News -->
+        <section class="news section_padding commonpadding">
+            <div class="containermine">
+                <div class="heading common_padding">
+                    <div class="container_mine d-flex justify-content-between align-items-center">
+                        <h2>Latest News & Articles</h2>
+                        <a href="./news.html"> View all</a>
+                    </div>
+                </div>
+                <div class="newsSlider swiper mySwiper">
+                    <div class="newsParts d-flex justify-content-between align-items-center swiper-wrapper">
+                        <div class="newsSlide swiper-slide">
+                            <div class="newsCard card border-0">
+                                <img src="./images/a0512a1d6a17714735ad2613ff8c9128 1.png" class="card-img-top"
+                                    alt="...">
+                                <div class="newsText">
+                                    <p class="text-start">Government removes age limit cap on scheme for farmers
+                                        <span><a class="ReadMore" href="#">Read More</a></span>
+                                    </p>
+                                    <div class="newsText2 d-flex justify-content-between align-items-center">
+                                        <p>Haryana, June 06, 2024</p>
+                                        <div class="comment">
+                                            <ul class=" d-flex justify-content-between align-items-center ">
+                                                <li>
+                                                    <a href="#"><img class="d-inline"
+                                                            src="./images/comment-2-svgrepo-com 1.png" alt="comment">3
+                                                        comments</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="newsCard card border-0">
+                                <img src="./images/a0512a1d6a17714735ad2613ff8c9128 1.png" class="card-img-top"
+                                    alt="...">
+                                <div class="newsText">
+                                    <p class="text-start">Government removes age limit cap on scheme for farmers
+                                        <span><a class="ReadMore" href="#">Read More</a></span>
+                                    </p>
+                                    <div class="newsText2 d-flex justify-content-between align-items-center">
+                                        <p>Haryana, June 06, 2024</p>
+                                        <div class="comment">
+                                            <ul class=" d-flex justify-content-between align-items-center ">
+                                                <li>
+                                                    <a href="#"><img class="d-inline"
+                                                            src="./images/comment-2-svgrepo-com 1.png" alt="comment">3
+                                                        comments</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="newsCard card border-0">
+                                <img src="./images/a0512a1d6a17714735ad2613ff8c9128 1.png" class="card-img-top"
+                                    alt="...">
+                                <div class="newsText">
+                                    <p class="text-start">Government removes age limit cap on scheme for farmers
+                                        <span><a class="ReadMore" href="#">Read More</a></span>
+                                    </p>
+                                    <div class="newsText2 d-flex justify-content-between align-items-center">
+                                        <p>Haryana, June 06, 2024</p>
+                                        <div class="comment">
+                                            <ul class=" d-flex justify-content-between align-items-center ">
+                                                <li>
+                                                    <a href="#"><img class="d-inline"
+                                                            src="./images/comment-2-svgrepo-com 1.png" alt="comment">3
+                                                        comments</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="newsCard card border-0">
+                                <img src="./images/a0512a1d6a17714735ad2613ff8c9128 1.png" class="card-img-top"
+                                    alt="...">
+                                <div class="newsText">
+                                    <p class="text-start">Government removes age limit cap on scheme for farmers
+                                        <span><a class="ReadMore" href="#">Read More</a></span>
+                                    </p>
+                                    <div class="newsText2 d-flex justify-content-between align-items-center">
+                                        <p>Haryana, June 06, 2024</p>
+                                        <div class="comment">
+                                            <ul class=" d-flex justify-content-between align-items-center ">
+                                                <li>
+                                                    <a href="#"><img class="d-inline"
+                                                            src="./images/comment-2-svgrepo-com 1.png" alt="comment">3
+                                                        comments</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="newsCard card border-0">
+                                <img src="./images/a0512a1d6a17714735ad2613ff8c9128 1.png" class="card-img-top"
+                                    alt="...">
+                                <div class="newsText">
+                                    <p class="text-start">Government removes age limit cap on scheme for farmers
+                                        <span><a class="ReadMore" href="#">Read More</a></span>
+                                    </p>
+                                    <div class="newsText2 d-flex justify-content-between align-items-center">
+                                        <p>Haryana, June 06, 2024</p>
+                                        <div class="comment">
+                                            <ul class=" d-flex justify-content-between align-items-center ">
+                                                <li>
+                                                    <a href="#"><img class="d-inline"
+                                                            src="./images/comment-2-svgrepo-com 1.png" alt="comment">3
+                                                        comments</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="newsCard card border-0">
+                                <img src="./images/a0512a1d6a17714735ad2613ff8c9128 1.png" class="card-img-top"
+                                    alt="...">
+                                <div class="newsText">
+                                    <p class="text-start">Government removes age limit cap on scheme for farmers
+                                        <span><a class="ReadMore" href="#">Read More</a></span>
+                                    </p>
+                                    <div class="newsText2 d-flex justify-content-between align-items-center">
+                                        <p>Haryana, June 06, 2024</p>
+                                        <div class="comment">
+                                            <ul class=" d-flex justify-content-between align-items-center ">
+                                                <li>
+                                                    <a href="#"><img class="d-inline"
+                                                            src="./images/comment-2-svgrepo-com 1.png" alt="comment">3
+                                                        comments</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="newsCard card border-0">
+                                <img src="./images/a0512a1d6a17714735ad2613ff8c9128 1.png" class="card-img-top"
+                                    alt="...">
+                                <div class="newsText">
+                                    <p class="text-start">Government removes age limit cap on scheme for farmers
+                                        <span><a class="ReadMore" href="#">Read More</a></span>
+                                    </p>
+                                    <div class="newsText2 d-flex justify-content-between align-items-center">
+                                        <p>Haryana, June 06, 2024</p>
+                                        <div class="comment">
+                                            <ul class=" d-flex justify-content-between align-items-center ">
+                                                <li>
+                                                    <a href="#"><img class="d-inline"
+                                                            src="./images/comment-2-svgrepo-com 1.png" alt="comment">3
+                                                        comments</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-button-next"></div> -->
+                    <!-- <div class="swiper-button-prev"></div> -->
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div>
+            </div>
+        </section>
+        <!-- product -->
+        <section class="product">
+            <div class="common_padding">
+                <div class="container_mine productParts ">
+                    <ul class="d-flex justify-content-between align-items-center">
+                        <li><a href="#"><img
+                                    src="./images/farm-fresh-logo-is-green-logo_647881-672-removebg-preview 1.png"
+                                    alt="product"></a></li>
+                        <li><a href="#"><img src="./images/IFFCO-removebg-preview 1.png" alt="product"></a></li>
+                        <li><a href="#"><img src="./images/Agrowstar_portfolio.png" alt="product"></a></li>
+                        <li><a href="#"><img src="./images/YNOS3291-removebg-preview 1.png" alt="product"></a></li>
+                        <li><a href="#"><img src="./images/images-removebg-preview 1.png" alt="product"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Download -->
+        <section class="download section_padding common_padding">
+            <div class="container_mine">
+                <div class="downloadParts d-flex justify-content-between align-items-center">
+                    <div class="downloadphn d-flex justify-content-center align-items-center">
+                        <img src="./images/Group 322.png" alt="phone">
+                    </div>
+                    <div class="downloadText d-flex justify-content-center align-items-center flex-column">
+                        <h2 class="text-center">Download <span>AgroLife</span> App Now</h2>
+                        <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been
+                            the industry's standard dummy text ever since the 1500s</p>
+                        <div class="store ">
+                            <ul class="d-flex justify-content-between align-items-center">
+                                <li><a href="#"><img
+                                            src="./images/png-transparent-google-play-computer-icons-android-google-text-label-logo-removebg-preview 1.png"
+                                            alt="app-store"></a></li>
+                                <li><a href="#"><img src="./images/app-store-badge-og-twitter-removebg-preview 1.png"
+                                            alt="app-store"></a></li>
+                            </ul>
+                        </div>
+                        <button class="downloadbtn d-flex justify-content-between align-items-center">
+                            <div class="downloadnmbr d-flex justify-content-between align-items-center">
+                                <a class="d-flex justify-content-between align-items-center" href="#"><img
+                                        src="./images/india.png" alt="india-flag"> +91</a>
+                                <div class="line"></div>
+                                <input class="border-0" type="number" name="number" id="number"
+                                    placeholder="Enter mobile number">
+                            </div>
+                            <div class="break"></div>
+                            <div class="app d-flex justify-content-center align-items-center">
+                                <a class="btn" href="#">Get App Link</a>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer position-relative common_padding section_padding">
+            <div class="container_mine">
+                <div class="footerParts d-flex justify-content-between align-items-center">
+                    <div class="footerText d-flex justify-content-center align-items-center flex-column">
+                        <a class="footLogo mb navbar-brand d-flex flex-column align-items-center" href="./index.html">
+                            <img src="./images/footer-logo.png" alt="#">
+                            <p class="mb-0">AgroLife</p>
+                            <span style="color: #4F2807;">Smart, Scientific, Sustainable.</span>
+                        </a>
+                        <span class="d-block mb text-center footer-span">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the
+                        </span>
+                        <button class="subscribe-btn border-0 d-flex justify-content-between align-items-center">
+                            <div class="inputMail">
+                                <input class="border-0" type="email" name="mail" id="mail"
+                                    placeholder="Enter your Email">
+                            </div>
+                            <div class="subscribe d-flex justify-content-center align-items-center">
+                                <a class="btn" href="#">Subscribe</a>
+                            </div>
+                        </button>
+                        <span class="d-block text-center" style="color:white">Lorem Ipsum is simply dummy text of the
+                            printing</span>
+                    </div>
+                    <div class="links">
+                        <span class="d-block footerContact-span text-center">Links</span>
+                        <div class="linklist d-flex justify-content-between align-items-center">
+                            <div class="links1">
+                                <ul>
+                                    <li><a class="footer-span" href="#">About Us</a></li>
+                                    <li><a class="footer-span" href="./marketPlace.html">MarketPlace</a></li>
+                                    <li><a class="footer-span" href="./community.html">Community</a></li>
+                                    <li><a class="footer-span" href="#">Crop Advisory</a></li>
+                                    <li><a class="footer-span" href="#">Soil Testing</a></li>
+                                    <li><a class="footer-span" href="#">Drone Services</a></li>
+                                    <li><a class="footer-span" href="#">Feedback</a></li>
+                                </ul>
+                            </div>
+                            <div class="links1">
+                                <ul>
+                                    <li><a class="footer-span" href="./news.html">News</a></li>
+                                    <li><a class="footer-span" href="./news.html">Videos</a></li>
+                                    <li><a class="footer-span" href="./schemes.html">Schemes</a></li>
+                                    <li><a class="footer-span" href="./marketBuy.html">Store</a></li>
+                                    <li><a class="footer-span" href="#">Services</a></li>
+                                    <li><a class="footer-span" href="./gallery.html">Project Gallery</a></li>
+                                    <li><a class="footer-span" href="#">Terms of Use</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <span class="d-block footerContact-span text-center">Contact</span>
+                        <div class="contact1 text-center">
+                            <ul>
+                                <li class="footer-span mb"><a href="tel:+918335007135"><i
+                                            class="fa-solid fa-phone"></i>+91 8335007135</a></li>
+                                <li class="footer-span mb"><a href="email:swastikd047@gmail.com"><i
+                                            class="fa-solid fa-envelope"></i>swastikd047@gmail.com</a></li>
+                                <li class="footer-span mb"><a href="loc:221BLoremIpsumRd.Kolkata-700001"><i
+                                            class="fa-solid fa-location-dot"></i>221B Lorem Ipsum Rd.
+                                        Kolkata-700001</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <span class="copyright d-block text-center footer-span position-absolute">© 2024 AgroLife</span>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
